@@ -7,15 +7,12 @@
     display: none;
 }
 
+/***** Main content *****/
 .main {
     background: url(./resources/Background/Mobilebackground.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding: 10px 0 0 10px;
-}
-
-.introContent {
-    height: 100vh;
     width: 100%;
 }
 
@@ -66,4 +63,10 @@
     font-size: 15px;
     font-weight: 900;
     color: #868686;
+}
+
+/***** Main Program *****/
+.program {
+    background: url(./resources/Background/mainProgram.jpeg);
+    
 }
