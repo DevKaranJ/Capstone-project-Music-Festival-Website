@@ -72,3 +72,152 @@
     color: #272a31;
     text-decoration: none;
 }
+
+/***** Fest Logo *****/
+
+.festLogoHeading  h3 {
+    font-family: "lato", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.underLine {
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.festLogoHeading p {
+    font-family: "lato", sans-serif;
+    color: #838383;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+.festLogoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.festLogoImg img {
+    width: 80%;
+    border: 1.5px solid #d3d3d3;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.festBottomUnderline {
+    border-bottom: 2px solid #d3d3d3;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.pastProgram {
+    margin-top: 50px;
+}
+
+.pastHeading h3 {
+    font-family: "lato", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pastHeading p {
+    font-family: "lato", sans-serif;
+    color: #838383;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+.pastUnderline {
+    border-bottom: 2px solid #ec5242;
+    width: 30%;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.pastEvents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+/***** Sponsors *****/
+.sponsors {
+    margin-top: 50px;
+    background: #272a31;
+}
+
+.sponsors h3 {
+    font-family: "lato", sans-serif;
+    color: #d3d3d3;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.sponsorCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.sponsorCards img {
+    width: 30%;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 50px;
+}
+
+/***** Footer *****/
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 0 0 25px;
+}
+
+.footer img {
+    width: 20%;
+}
+
+.footer h6 {
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #272a31;
+}
+
+.footer p {
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #272a31;
+    margin-left: 10px;
+    padding: 0 0 0 40px;
+}
