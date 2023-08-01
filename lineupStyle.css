@@ -1,0 +1,80 @@
+.Featured h2 {
+    font-family: "lato", sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.underLine {
+    border-bottom: 2px solid #ec5242;
+    width: 15%;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.speakers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.speakers:hover {
+    transform: scale(1.1);
+}
+
+.speakerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.speakerInfo h5 {
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.about {
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 700;
+    color: #ec5242;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.description {
+    font-family: "lato", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.moreBtn {
+    width: 90%;
+    height: 40px;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    transition: transform 0.3s ease;
+}
+
+.moreBtn:hover {
+    transform: scale(1.1);
+    color: #ec5242;
+}
