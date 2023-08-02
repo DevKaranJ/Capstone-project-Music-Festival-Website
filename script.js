@@ -30,7 +30,7 @@ const featuredSpeakers = [
     image: '<img src="resources/lineups/lineup5.png" alt="figures">',
     description: ' GUTSLIT has adapted various styles of death metal and grind core into their own brutal array of grinding riffs, pummeling blasts, vicious bass grooves and chilling gutturals.',
   },
-  ];
+];
 
 const speakersSection = document.getElementById('speakers');
 const seeMoreButton = document.getElementById('seeMoreButton');
@@ -54,7 +54,7 @@ function displaySpeakers() {
       </article>
     `;
   }
- 
+
   speakersSection.innerHTML = speakersHTML;
 
   if (isMobileView) {
