@@ -10,10 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    display: none;
-}
-
 /***** Main content *****/
 .main {
     background: url(./resources/Background/Mobilebackground.png);
@@ -226,4 +222,71 @@ body {
     color: #272a31;
     margin-left: 10px;
     padding: 0 0 0 40px;
+}
+
+/* ***** mobilemenu *****/
+.menuItem {
+    display: none;
+    text-align: center;
+  }
+  
+  .menu-content.show .menuItem {
+    display: block;
+  }
+  
+  .menu-content.show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 100;
+  }
+
+  .menu-content.show ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none; 
+    padding: 0;
+}
+
+.menu-content.show ul li {
+    margin: 20px 0 30px 0;
+    padding: 0;
+}
+
+.menu-content ul li.menuItem a {
+    text-decoration: none;
+    color: black;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu-content ul li.menuItem a:hover {
+    color: #ec5242;
+}
+
+.menu-content.show .hamburger {
+    display: none;
+}
+
+.menu-content .close-button {
+    display: none;
+}
+
+.menu-content.show .close-button {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menu-content.show .close-button:hover {
+    opacity: 1;
 }
