@@ -1,166 +1,166 @@
 @media screen and (min-width: 768px) {
-.topHeader {
- background: #3e3e3e;
-}
+  .topHeader {
+    background: #3e3e3e;
+  }
 
-.menu-content {
+  .menu-content {
     display: none;
-}
+  }
 
-.topHeader ul {
- display: flex;
- flex-direction: row;
- justify-content: flex-end;
- align-items: center;
-}
+  .topHeader ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
-.topHeader ul a {
+  .topHeader ul a {
     padding: 5px;
-}
+  }
 
-.topHeader ul li {
- list-style: none;
- padding: 10px;
-}
-
-.topHeader ul li a {
- text-decoration: none;
- color: white;
- font-family: "lato", sans-serif;
- font-size: 20px;
- font-weight: 700;
-}
-
-.topHeader ul li a:hover {
- color: #ec5242;
-}
-
-.topHeader ul li a i {
- margin-right: 5px;
-}
-
-.topHeader ul a:hover {
- color: blue;
-}
-
-.desktopBar {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- align-items: flex-start;
-}
-
-.desktopBar .logo {
-margin-top: 10px;
-}
-
-.desktopBar .logo img {
- width: 80%;
- height: 50px;
-}
-
-.desktopBar ul {
- display: flex;
- flex-direction: row;
- gap: 1rem;
- padding: 20px;
-}
-
-.desktopBar ul li {
+  .topHeader ul li {
     list-style: none;
-}
+    padding: 10px;
+  }
 
-.desktopBar ul li a {
- text-decoration: none;
- color: #3e3e3e;
- font-family: "lato", sans-serif;
- font-size: 20px;
- font-weight: 700;
- transition: color 0.3s, transform 0.3s;
-}
+  .topHeader ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
 
-.desktopBar ul li a:hover {
- color: #ec5242;
- transform: scale(1.1);
-}
+  .topHeader ul li a:hover {
+    color: #ec5242;
+  }
 
-.desktopBar ul li:last-child a {
+  .topHeader ul li a i {
+    margin-right: 5px;
+  }
+
+  .topHeader ul a:hover {
+    color: blue;
+  }
+
+  .desktopBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .desktopBar .logo {
+    margin-top: 10px;
+  }
+
+  .desktopBar .logo img {
+    width: 80%;
+    height: 50px;
+  }
+
+  .desktopBar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 20px;
+  }
+
+  .desktopBar ul li {
+    list-style: none;
+  }
+
+  .desktopBar ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .desktopBar ul li a:hover {
+    color: #ec5242;
+    transform: scale(1.1);
+  }
+
+  .desktopBar ul li:last-child a {
     color: #ec5242;
     font-weight: bold;
     padding: 5px;
     border: 4px solid #ec5242;
     border-radius: 5px;
-}
+  }
 }
 
-/***** Main *****/
+/* Main */
 @media screen and (min-width: 768px) {
-.main {
+  .main {
     background: url(./resources/Background/Mobilebackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0 0 10px;
     width: 98%;
     height: 50vh;
-}
+  }
 
-.introContent {
+  .introContent {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
-}
+  }
 
-.content {
+  .content {
     width: 80%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
+  }
 
-.content h1 {
+  .content h1 {
     font-size: 35px;
     font-weight: 400;
-}
+  }
 
-.content h2 {
+  .content h2 {
     font-size: 40px;
     font-weight: 700;
-}
+  }
 
-.content p {
+  .content p {
     font-size: 25px;
     font-weight: 400;
-}
+  }
 
-.content h3 {
+  .content h3 {
     font-size: 30px;
     font-weight: 700;
-}
+  }
 
-.content h4 {
+  .content h4 {
     font-size: 20px;
     font-weight: 700;
-}
+  }
 }
 
-/***** Main Program *****/ 
+/* Main Program */
 @media screen and (min-width: 768px) {
-.program {
+  .program {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.program h3 {
+  .program h3 {
     margin-top: 50px;
     font-size: 40px;
-}
+  }
 
-.programCards {
+  .programCards {
     display: flex;
     width: 10%;
     margin: 10%;
@@ -168,29 +168,29 @@ margin-top: 10px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.programEvents {
+  .programEvents {
     display: grid;
     grid-template-columns: auto;
     align-items: center;
     justify-content: center;
     border: 2px solid transparent;
     padding: 30px;
-}
+  }
 
-.programEvents img {
+  .programEvents img {
     padding: 0 0 0 30px;
     width: 65%;
   }
 
-.programEvents h4 {
+  .programEvents h4 {
     font-size: 30px;
     font-weight: 700;
     color: #ec5242;
   }
 
-.programEvents p {
+  .programEvents p {
     font-size: 20px;
     font-weight: 400;
     color: white;
@@ -209,14 +209,14 @@ margin-top: 10px;
   }
 }
 
-/***** Footer *****/
+/* Footer */
 @media screen and (min-width: 768px) {
-.sponsors {
+  .sponsors {
     margin-top: 50px;
     background: #272a31;
     width: 100%;
   }
-  
+
   .sponsors h3 {
     font-family: "lato", sans-serif;
     color: #868686;
@@ -225,7 +225,7 @@ margin-top: 10px;
     text-align: center;
     padding: 10px;
   }
-  
+
   .sponsorCards {
     display: flex;
     flex-direction: row;
@@ -234,15 +234,15 @@ margin-top: 10px;
     margin-top: 50px;
     gap: 25px;
   }
-  
+
   .sponsorCards img {
     width: 30%;
     height: 70px;
     object-fit: contain;
     margin-bottom: 50px;
   }
-  
-  /***** Footer *****/
+
+  /* Footer */
   .footer {
     display: flex;
     flex-direction: row;
@@ -252,18 +252,18 @@ margin-top: 10px;
     margin-bottom: 20px;
     padding: 0 0 0 25px;
   }
-  
+
   .footer img {
     width: 20%;
   }
-  
+
   .footer h6 {
     font-family: "lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #272a31;
   }
-  
+
   .footer p {
     font-family: "lato", sans-serif;
     font-size: 20px;
@@ -272,8 +272,8 @@ margin-top: 10px;
     margin-left: 130px;
     padding: 0 0 0 40px;
   }
-  
-  /* ***** mobilemenu *****/
+
+  /* Mobile Menu */
   .menuItem {
     display: none;
     text-align: center;
