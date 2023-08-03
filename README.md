@@ -37,7 +37,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 - HTML.
 - CSS.
-- Figma.
+- Javascript.
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
