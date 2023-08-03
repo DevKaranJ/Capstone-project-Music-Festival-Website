@@ -30,6 +30,12 @@ const featuredSpeakers = [
     image: '<img src="resources/lineups/lineup5.png" alt="figures">',
     description: ' GUTSLIT has adapted various styles of death metal and grind core into their own brutal array of grinding riffs, pummeling blasts, vicious bass grooves and chilling gutturals.',
   },
+  {
+    name: 'Maya Bhat',
+    about: 'Maya Bhat is an Indian metal band from Mumbai.',
+    image: '<img src="resources/lineups/lineup1.png" alt="maut">',
+    description: 'Maya Bhat formed in November 2003. The band released their third full-length album "MAN" on 31 October 2014.',
+  },
 ];
 
 const speakersSection = document.getElementById('speakers');

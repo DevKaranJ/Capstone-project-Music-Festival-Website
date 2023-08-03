@@ -67,6 +67,7 @@
 .program {
   background: url(./resources/Background/mainProgram.jpeg);
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .program h3 {
@@ -89,6 +90,7 @@
 .programCards {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 10px 10px 10px 10px;
 }
 
@@ -101,6 +103,12 @@
   padding: 10px;
   border: 2px solid #3d4047;
   background-color: rgba(61, 64, 71, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.programEvents:hover {
+  background-color: rgba(61, 64, 71, 0.8);
+  transform: scale(1.1);
 }
 
 .programEvents img {
@@ -130,13 +138,13 @@
 
 .joinBtn {
   font-family: "lato", sans-serif;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 400;
   list-style: none;
   color: white;
   background-color: #ec5242;
   border: 2px solid #ec5242;
-  padding: 5px 5px 5px 5px;
+  padding: 15px;
 }
 
 /***** Hide below section from main page *****/

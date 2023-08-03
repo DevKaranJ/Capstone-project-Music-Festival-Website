@@ -22,8 +22,16 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content p {
+  text-align: center;
 }
 
 .content h1 {
@@ -31,6 +39,7 @@ body {
   font-size: 25px;
   font-weight: 300;
   color: #ec5242;
+  margin-bottom: 15px;
 }
 
 .content h2 {
@@ -38,6 +47,7 @@ body {
   font-size: 35px;
   font-weight: 700;
   color: #ec5242;
+  margin-bottom: 15px;
 }
 
 .content p {
@@ -62,7 +72,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 30px 100px;
+  margin: 30px 0;
 }
 
 .content h3 a {
@@ -197,13 +207,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0 0 0 25px;
+  align-items: center;
+  padding: 2.5rem;
 }
 
 .footer img {
   width: 20%;
+  vertical-align: middle;
 }
 
 .footer h6 {
@@ -211,6 +221,8 @@ body {
   font-size: 20px;
   font-weight: 700;
   color: #272a31;
+  margin: 0;
+  padding-left: 10px;
 }
 
 .footer p {
