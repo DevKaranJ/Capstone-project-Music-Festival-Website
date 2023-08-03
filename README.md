@@ -7,6 +7,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - - [Tech Stack](#tech-stack)
   - [Key Features](#key-features)
    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
@@ -32,9 +33,13 @@
 
 **[Portfolio]** Welcome to my portfolio repository! Explore a collection of my diverse creative projects, highlighting my skills and accomplishments. From web development to graphic design, witness my passion and expertise in action. Let's collaborate and discuss opportunities for future endeavors. Enjoy the journey!
 ## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 - HTML.
 - CSS.
 - Figma.
+  
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
