@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]([https://devkaranj.github.io/MyPortfolio/](https://devkaranj.github.io/Capstone-project-Music-Festival-Website/))
+- [Live Demo Link](https://devkaranj.github.io/Capstone-project-Music-Festival-Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
