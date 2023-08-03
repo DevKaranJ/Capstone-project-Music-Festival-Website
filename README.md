@@ -142,7 +142,7 @@ If you like this project, give it a star .
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for issuing the project to the students.
+I would like to thank(https://www.behance.net/adagio07/) Cindy Shin to provide such a great desing.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
