@@ -64,6 +64,7 @@
 }
 
 /***** Main Program *****/
+
 .program {
   background: url(./resources/Background/mainProgram.jpeg);
   padding-bottom: 20px;
@@ -72,37 +73,40 @@
 
 .program h3 {
   font-family: "latobold", sans-serif;
-  font-size: 25px;
+  font-size: 4vw;
   font-weight: 400;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2vh;
 }
 
 .underLine {
   border-bottom: 2px solid #ec5242;
   width: 20%;
-  padding-top: 10px;
+  padding-top: 1vh;
   margin: 0 auto;
 }
 
 .programCards {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 10px 10px 10px 10px;
+  gap: 1vh; 
+  margin-top: 2vh; 
 }
 
 .programEvents {
-  display: flex;
-  flex-direction: row;
+  width: 80%;
+  background: linear-gradient(0deg, #3b3e45 0%, #3b3e45 100%);
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
-  width: 90%;
-  margin: 10px;
-  padding: 10px;
-  border: 2px solid #3d4047;
-  background-color: rgba(61, 64, 71, 0.5);
+  gap: 20px;
+  padding: 4vw;
+  border: 2px solid transparent;
   transition: transform 0.3s ease;
 }
 
@@ -112,39 +116,45 @@
 }
 
 .programEvents img {
-  width: 20%;
+  width: 25%;
+  height: auto;
 }
 
 .programEvents h4 {
   font-family: "lato", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+  width: 40%;
+  height: 30px;
   color: #ec5242;
-  padding: 0 30px 0 30px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 6vw;
 }
 
 .programEvents p {
   font-family: "lato", sans-serif;
-  font-size: 10px;
-  font-weight: 700;
+  width: 55vw;
   color: white;
-  padding: 0 0 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2.5vh;
+  letter-spacing: 0.1vw;
 }
 
 .Joining {
   display: flex;
   justify-content: center;
+  margin-top: 3vh;
 }
 
 .joinBtn {
   font-family: "lato", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   list-style: none;
   color: white;
   background-color: #ec5242;
-  border: 2px solid #ec5242;
-  padding: 15px;
+  border: 0.2vw solid #ec5242;
+  padding: 2vh 4vw;
 }
 
 /***** Hide below section from main page *****/
