@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Capstone-project-Music-Festival-Website] <a name="about-project"></a>
 
 
 
@@ -42,11 +42,7 @@
 
 > The following are the key features of the application.
 
-- **[Header section including logo and hamburger button]**
-- **[Headline ]**
-- **[Works ]**
-- **[About myself]**
-- **[Contact form]**
+- **[Add ticket page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://devkaranj.github.io/MyPortfolio/)
+- [Live Demo Link]([https://devkaranj.github.io/MyPortfolio/](https://devkaranj.github.io/Capstone-project-Music-Festival-Website/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +71,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 Navigate to the  directory where you  want to clone this project in your computer.
-Clone this repository to your desired folder:git clone https://github.com/DevKaranJ/Portfolio.git
+Clone this repository to your desired folder:git clone (https://github.com/DevKaranJ/Capstone-project-Music-Festival-Website.git)
 
 ### Install
 Install this project with this command:
@@ -153,12 +149,12 @@ I would like to thank microverse for issuing the project to the students.
 - **[Question 1]**
 [How long did it take you to complete the project?]**
 
-  - [It being a simple project,It took me 3 hours ]
+  - [It took me 8 hours ]
 
 - **[Question 2]**
 [Talk about your biggest challenge in the project. What happened? How did you manage it?]
 
-  - [Answer_2][It was the Figma template part.It was challenging at first(the installation and understanding the errors) however I can confidently say I can succesfully configure it as well as use it to successfully get a lot from it.]
+  - [Answer_2][It was the Desing Part.It was challenging at first(the installation and understanding the errors) however I can confidently say I can succesfully configure it as well as use it to successfully get a lot from it.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
