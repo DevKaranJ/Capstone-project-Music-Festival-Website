@@ -123,7 +123,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 100px;
   }
 
   .content h1 {
@@ -143,6 +144,7 @@
   .content h3 {
     font-size: 30px;
     font-weight: 700;
+    padding-bottom: 100px;
   }
 
   .content h4 {
@@ -159,12 +161,17 @@
 /***** Logo *****/
 
 @media screen and (min-width: 768px) {
+.pastProgram {
+  padding-bottom: 50px;
+}
+
   .festLogoHeading h3 br {
     display: none;
   }
 
   .festLogoHeading h3 {
     font-size: 40px;
+    padding-top: 100px;
   }
 
   .festLogoHeading p {
@@ -189,20 +196,26 @@
   }
 
   .footer {
+    background: #3e3e3e;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    padding: 20px;
-    align-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    padding-top: 50px;
   }
 
   .footer h6 {
-    font-size: 30px;
+    color: white;
+  }
+
+  .footer h6 a {
+    color: white;
   }
 
   .footer p {
-    font-size: 30px;
+    color: white;
+  }
+
+  .sponsors {
+    display: none;
   }
 }
