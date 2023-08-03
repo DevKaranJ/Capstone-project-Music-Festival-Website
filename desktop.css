@@ -35,13 +35,23 @@
     padding: 5px;
   }
 
-  .topHeader ul li a:hover {
-    color: #ec5242;
+  .desktopBar ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: color 0.3s, transform 0.3s;
   }
 
   .topHeader ul a:hover {
     color: blue;
   }
+
+  .topHeader ul li a:hover {
+    color: #ec5242;
+  }
+
 
   .desktopBar {
     display: flex;
@@ -68,15 +78,6 @@
 
   .desktopBar ul li {
     list-style: none;
-  }
-
-  .desktopBar ul li a {
-    text-decoration: none;
-    color: #3e3e3e;
-    font-family: "lato", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    transition: color 0.3s, transform 0.3s;
   }
 
   .desktopBar ul li a:hover {
