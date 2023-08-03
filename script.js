@@ -41,7 +41,7 @@ function displaySpeakers() {
   const maxSpeakersToShow = isMobileView ? 2 : featuredSpeakers.length;
   for (let i = 0; i < maxSpeakersToShow; i += 1) {
     speakersHTML += `
-      <article class="speakers">
+      <article class="speaker">
         <div class="image">
           ${featuredSpeakers[i].image}
         </div>

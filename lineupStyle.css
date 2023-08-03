@@ -16,7 +16,7 @@
     margin-bottom: 20px;
 }
 
-.speakers {
+.speaker {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,7 +24,7 @@
     transition: transform 0.3s ease;
 }
 
-.speakers:hover {
+.speaker:hover {
     transform: scale(1.1);
 }
 
@@ -78,4 +78,19 @@
 .moreBtn:hover {
     transform: scale(1.1);
     color: #ec5242;
+}
+
+/***** Desktop *****/
+@media screen and (min-width: 768px) {
+    .speak {
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+
+    .speaker {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1.2rem 0;
+    }
+
 }
