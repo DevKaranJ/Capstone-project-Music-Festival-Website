@@ -67,8 +67,7 @@
 
 .program {
   background: url(./resources/Background/mainProgram.jpeg);
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 0.8rem;
 }
 
 .program h3 {
@@ -89,25 +88,13 @@
   margin: 0 auto;
 }
 
-.programCards {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1vh;
-  margin-top: 2vh;
-}
-
 .programEvents {
-  width: 80%;
-  background: linear-gradient(0deg, #3b3e45 0%, #3b3e45 100%);
-  display: inline-flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  margin-bottom: 4px;
   align-items: center;
-  gap: 20px;
-  padding: 4vw;
-  border: 2px solid transparent;
-  transition: transform 0.3s ease;
+  background-color: #3b3e45;
+  padding: 0.4rem;
 }
 
 .programEvents:hover {
@@ -116,28 +103,30 @@
 }
 
 .programEvents img {
-  width: 25%;
-  height: auto;
+  width: 70%;
 }
 
 .programEvents h4 {
   font-family: "lato", sans-serif;
-  width: 40%;
-  height: 30px;
-  color: #ec5242;
-  font-size: 20px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 6vw;
+  font-size: 14.2712px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ff5438;
 }
 
 .programEvents p {
   font-family: "lato", sans-serif;
-  width: 55vw;
+  width: 50vw;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 2.5vh;
   letter-spacing: 0.1vw;
+  margin: 1rem 0;
 }
 
 .Joining {

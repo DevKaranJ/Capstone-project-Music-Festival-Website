@@ -153,6 +153,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    margin-top: 100px;
   }
 
   .program h3 {
@@ -161,23 +163,19 @@
   }
 
   .programCards {
-    width: 100px;
-    height: 231px;
-    background: linear-gradient(0deg, #3b3e45 0%, #3b3e45 100%);
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex;
-    flex-direction: row;
-    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    gap: 1rem;
+    text-align: center;
   }
 
   .programEvents {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
+    grid-template-columns: auto;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid transparent;
   }
 
   .programEvents img {
@@ -186,24 +184,20 @@
   }
 
   .programEvents h4 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #ec5242;
-    width: 79px;
-    height: 27px;
-    line-height: 28px;
+    margin: auto;
+    font-size: 25px;
   }
 
   .programEvents p {
-    width: 130px;
-    height: 100px;
+    width: 100%;
+    height: auto;
     text-align: center;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 15px;
     letter-spacing: 0.52px;
-    padding-top: 3px;
+    padding-top: 20px;
   }
 
   .joinBtn {
