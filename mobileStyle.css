@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/***** Main content *****/
+.main {
+  background: url(./resources/Background/Mobilebackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0 0 10px;
+  width: 97%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0 0 0;
+}
+
+.content h1 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ec5242;
+}
+
+.content h2 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.content p {
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  background-color: #f6f6f7;
+  border: 4px solid #fff;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.content h3 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #515151;
+  margin-top: 20px;
+}
+
+.content h4 {
+  font-family: "cocogoose", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  color: #868686;
+  margin-bottom: 40px;
+}
+
+/***** Main Program *****/
+
+.program {
+  background: url(./resources/Background/mainProgram.jpeg);
+  padding: 0.8rem;
+}
+
+.program h3 {
+  font-family: "latobold", sans-serif;
+  font-size: 4vw;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.underLine {
+  border-bottom: 2px solid #ec5242;
+  width: 20%;
+  padding-top: 1vh;
+  margin: 0 auto;
+}
+
+.programEvents {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  margin-bottom: 4px;
+  align-items: center;
+  background-color: #3b3e45;
+  padding: 0.4rem;
+}
+
+.programEvents:hover {
+  background-color: rgba(61, 64, 71, 0.8);
+  transform: scale(1.1);
+}
+
+.programEvents img {
+  width: 70%;
+}
+
+.programEvents h4 {
+  font-family: "lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.2712px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  color: #ff5438;
+}
+
+.programEvents p {
+  font-family: "lato", sans-serif;
+  width: 50vw;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 2.5vh;
+  letter-spacing: 0.1vw;
+  margin: 1rem 0;
+}
+
+.Joining {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.joinBtn {
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  color: white;
+  background-color: #ec5242;
+  border: 0.2vw solid #ec5242;
+  padding: 2vh 4vw;
+}
+
+/***** Hide below section from main page *****/
+@media only screen and (max-width: 767px) {
+  .sponsors,
+  .copyright,
+  .container,
+  .footer {
+    display: none;
+  }
+}
+
+/* ***** mobilemenu *****/
+.menuItem {
+  display: none;
+  text-align: center;
+}
+
+.menu-content.show .menuItem {
+  display: block;
+}
+
+.menu-content.show {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+.menu-content.show ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-content.show ul li {
+  margin: 20px 0 30px 0;
+  padding: 0;
+}
+
+.menu-content ul li.menuItem a {
+  text-decoration: none;
+  color: black;
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.menu-content ul li.menuItem a:hover {
+  color: #ec5242;
+}
+
+.menu-content.show .hamburger {
+  display: none;
+}
+
+.menu-content .close-button {
+  display: none;
+}
+
+.menu-content.show .close-button {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.menu-content.show .close-button:hover {
+  opacity: 1;
+}
