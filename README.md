@@ -31,7 +31,7 @@
 
 
 
-**[Portfolio]** Welcome to my portfolio repository! Explore a collection of my diverse creative projects, highlighting my skills and accomplishments. From web development to graphic design, witness my passion and expertise in action. Let's collaborate and discuss opportunities for future endeavors. Enjoy the journey!
+**[Music Festival ]** The Capstone-project-Music-Festival-Website is an artistic and technically impressive online experience that emulates the energy and excitement of a live music festival. With captivating visuals, interactive ticketing, and a seamless user interface, it combines the best of web development and creative design to transport visitors to a virtual music celebration.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
